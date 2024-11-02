@@ -20,7 +20,7 @@ on:
     inputs:
       force-build:
         description: "Build new firmware anyway"
-        required: false
+        required: true
         default: "false"
       ssh:
         description: "SSH connection to Actions"
